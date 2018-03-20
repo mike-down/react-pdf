@@ -33,7 +33,7 @@ const load = async (fontFamily, doc) => {
 
   if (!font && !standardFonts.includes(fontFamily)) {
     throw new Error(
-      `Font familiy not registered: ${fontFamily}. Please register it calling Font.register() method.`,
+      `Font family not registered: ${fontFamily}. Please register it calling Font.register() method.`,
     );
   }
 };
